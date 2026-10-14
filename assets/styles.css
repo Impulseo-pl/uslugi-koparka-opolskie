@@ -1839,20 +1839,11 @@ footer{view-transition-name:mt-foot}
 }
 
 
-/* === auto-paleta z marki klienta (źródło: zdjęcia) === */
-:root{--accent:#3674AA;--accent-d:#206094;--accent-soft:rgba(54,116,170,0.10);--paper:#F7FBFE;--paper-2:#EBF1F7;--paper-3:#E0E7EF;--ink:#1A2129;--ink-soft:#3F4952;--muted:#757D84;--line:rgba(26,33,41,.12);}
+/* === auto-paleta z marki klienta (źródło: logo) === */
+:root{--accent:#B75400;--accent-d:#A03E00;--accent-soft:rgba(183,84,0,0.10);--paper:#FFF9F5;--paper-2:#F8EEE8;--paper-3:#F2E3DA;--ink:#2B1D14;--ink-soft:#554339;--muted:#877970;--line:rgba(43,29,20,.12);}
 .btn-accent{color:#fff}
 .nav .nav-links a.btn-accent{color:#fff}
 .btn-accent[data-accent-d],.cta-d .btn-accent{color:#fff}
 
 /* === szary tekst dociągnięty do czytelności (WCAG 4.5 na wszystkich tłach) === */
-:root{--muted:#61686E;}
-
-/* === rozróżnienie palety: zieleń butelkowa (odtworzona z rejestru) ===
-   Blokada powtórzeń (13.08.2026): ten sam odcień nie idzie do kolejnych
-   klientów pod rząd. Wybór zapisany w palety-uzyte.json, więc przebudowa
-   tego dema odtworzy DOKŁADNIE ten kolor. */
-:root{--accent:#5D7A4D;--accent-d:#496539;--accent-soft:rgba(93,122,77,.10);--gold:#5D7A4D;}
-.btn-accent{color:#fff}
-.nav .nav-links a.btn-accent{color:#fff}
-.btn-accent[data-accent-d],.cta-d .btn-accent{color:#fff}
+:root{--muted:#70655D;}
